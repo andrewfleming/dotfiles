@@ -1,4 +1,4 @@
-COMPUTER_NAME="grsmto"
+COMPUTER_NAME="fleming"
 
 osascript -e 'tell application "System Preferences" to quit'
 
@@ -52,14 +52,11 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# Save screenshots to a screenshots folder on the desktop
-defaults write com.apple.screencapture location -string "$HOME/Desktop/screenshots"
+# Save screenshots to Downloads folder
+defaults write com.apple.screencapture location -string "$HOME/Downloads"
 
 # Save screenshots in JPG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "jpg"
-
-# Disable screenshot shadow
-defaults write com.apple.screencapture disable-shadow -bool true
 
 # Show/Hide icons for hard drives, servers, and removable media on the desktop
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -88,6 +85,12 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Mouse configuration
+defaults write com.apple.AppleMultitouchMouse MouseButtonMode TwoButton
+defaults write -g com.apple.swipescrolldirection -bool FALSE
+defaults write -g AppleEnableMouseSwipeNavigateWithScrolls -bool TRUE
+defaults write -g com.apple.mouse.scaling  5.0
 
 for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" "Safari" "SystemUIServer" "iCal"; do
   killall "${app}" &> /dev/null
