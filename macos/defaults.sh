@@ -83,9 +83,6 @@ defaults write com.apple.Dock autohide-delay -float 0
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-# Show hidden files
-defaults write com.apple.finder AppleShowAllFiles YES
-
 # Mouse configuration
 defaults write com.apple.AppleMultitouchMouse MouseButtonMode TwoButton
 defaults write -g com.apple.swipescrolldirection -bool FALSE
