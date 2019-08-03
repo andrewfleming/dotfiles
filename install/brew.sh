@@ -39,6 +39,7 @@ brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" typora
 brew cask install --appdir="/Applications" zoomus
 brew cask install --appdir="/Applications" dash
+brew cask install --appdir="/Applications" sequel-pro
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo
