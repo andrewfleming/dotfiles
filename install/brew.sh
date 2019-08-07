@@ -41,6 +41,7 @@ brew cask install --appdir="/Applications" zoomus
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" textual
+brew cask install --appdir="/Applications" krisp
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo
