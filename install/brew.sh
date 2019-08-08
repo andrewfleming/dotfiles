@@ -26,23 +26,23 @@ brew tap caskroom/versions
 
 # Install cask packages
 
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" phpstorm
-brew cask install --appdir="/Applications" postman
-brew cask install --appdir="/Applications" spectacle
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" typora
-brew cask install --appdir="/Applications" zoomus
-brew cask install --appdir="/Applications" dash
-brew cask install --appdir="/Applications" sequel-pro
-brew cask install --appdir="/Applications" textual
-brew cask install --appdir="/Applications" krisp
-brew cask install --appdir="/Applications" carbon-copy-cloner
+brew cask install google-chrome
+brew cask install firefox
+brew cask install slack
+brew cask install spotify
+brew cask install phpstorm
+brew cask install postman
+brew cask install spectacle
+brew cask install iterm2
+brew cask install dropbox
+brew cask install 1password
+brew cask install typora
+brew cask install zoomus
+brew cask install dash
+brew cask install sequel-pro
+brew cask install textual
+brew cask install krisp
+brew cask install carbon-copy-cloner
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook qlvideo
