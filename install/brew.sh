@@ -12,6 +12,7 @@ brew install node
 brew install python3
 brew install wget
 brew install wifi-password
+brew install rbenv
 
 # Wait a bit before moving on...
 sleep 1
