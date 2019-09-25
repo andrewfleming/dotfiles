@@ -13,6 +13,7 @@ brew install python3
 brew install wget
 brew install wifi-password
 brew install rbenv
+brew install cloc
 
 # Wait a bit before moving on...
 sleep 1
